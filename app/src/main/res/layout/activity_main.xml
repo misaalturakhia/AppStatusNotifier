@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tf_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/serial_number_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="start|center"
+            android:paddingLeft="@dimen/list_field_padding_left"
+            android:text="@string/app_name_text"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="start|center"
+            android:paddingLeft="@dimen/list_field_padding_left"
+            android:text="@string/status_text"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/app_data_list_view">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/list_empty_text"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/list_empty_view"/>
+
+
+</LinearLayout>

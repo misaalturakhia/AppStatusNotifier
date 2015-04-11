@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">AppStatusApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="serial_number_text">No</string>
+    <string name="app_name_text">App Name</string>
+    <string name="status_text">Status</string>
+    <string name="list_empty_text">There is no new data about the apps on your phone</string>
+
+</resources>

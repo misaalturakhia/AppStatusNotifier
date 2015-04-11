@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:id="@+id/serial_no_tv"
+        android:text="1"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/list_field_padding_left"
+        android:paddingRight="@dimen/list_field_padding_left"
+        android:text="Uber"
+        android:id="@+id/app_name_tv"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/list_field_padding_left"
+        android:id="@+id/status_tv"
+        android:text="Uninstalled"
+        />
+
+
+</LinearLayout>
